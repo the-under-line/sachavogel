@@ -1,7 +1,13 @@
-version: 1
-rules:
-  - enabled: true
-    expression: http.request.uri.path eq "/robots.txt"
-    action: redirect
-    status_code: 301
-    destination: "https://sachavogel.com/robots.txt"
+{
+  "version": 1,
+  "rules": [
+    {
+      "enabled": true,
+      "description": "Redirect robots.txt to real file",
+      "expression": "http.request.uri.path eq \"/robots.txt\"",
+      "action": "redirect",
+      "status_code": 301,
+      "destination": "https://sachavogel.com/files/robots.txt"
+    }
+  ]
+}
