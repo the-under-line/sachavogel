@@ -2,5 +2,5 @@ User-agent: *
 Disallow:
 
 ##NOTE##
-Hey, this is Sacha! I like programming, probably just like you! I don't really care what you do here, just be nice!
-Just be ethical; nothing for profit, but whatever for fun (or for programming practice)! Enjoy your scraping!
+#Hey, this is Sacha! I like programming, probably just like you! I don't really care what you do here, just be nice!
+Just be ethical; nothing for profit, but whatever for fun (or for programming practice)! Enjoy your scraping!#
