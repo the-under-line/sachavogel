@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "routes": [
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "include": ["/robots.txt"]
+    }
+  ],
+  "error_routes": [
+    {
+      "status": 404,
+      "path": "/404.html"
+    }
+  ],
+  "include": ["/*"]
+}
