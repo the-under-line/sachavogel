@@ -1,18 +1,12 @@
 {
   "version": 1,
-  "routes": [
-    {
-      "path": "/robots.txt",
-      "method": ["GET"]
-      "status": 200,
-      "include": ["/robots.txt"]
-    }
-  ],
+  "include": ["/robots.txt", "/*"],
+  "routes": [],
   "error_routes": [
     {
       "status": 404,
       "path": "/404.html"
     }
-  ],
-  "include": ["/*"]
+  ]
 }
+
