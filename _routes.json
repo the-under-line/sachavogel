@@ -3,6 +3,7 @@
   "routes": [
     {
       "path": "/robots.txt",
+      "method": ["GET"]
       "status": 200,
       "include": ["/robots.txt"]
     }
