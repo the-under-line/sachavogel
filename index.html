@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sacha Vogel</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -12,5 +14,10 @@
     <h1>Sacha Vogel</h1>
     <h2>Hi, I'm Sacha!</h2>
 
+<p>Add to our button click count! Click the button as much as possible!</p>
+<button py-click="update_file">Click Here!</button>
+<br>
+<div id="output"></div>
+<script type="py" src="./main.py"></script>
 </body>
 </html>
