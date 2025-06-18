@@ -1,6 +1,6 @@
 from js import document
 
-def update_file():
+def update_file(*args, **kwargs):
     output = document.getElementById("output")
     
 
